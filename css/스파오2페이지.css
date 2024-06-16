@@ -1,0 +1,153 @@
+
+    .font_weight{
+        font-weight: 900;
+    }
+
+
+    .main {
+        padding-top: 160px;
+        max-width: 1165px;
+        min-width: 1005px;
+        width: 81%;
+        margin: 0 auto;
+    }
+    .main > h4 {
+        padding: 0;
+        color: #1a1a1a;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .main_choose_box {
+        position: relative;
+        width:100% ;
+        height: 60px;
+        border: 1px solid gainsboro;
+        padding: 0px 20px;
+        margin: 0 0 80px 0;
+
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .main_choose_box > div {
+        color: #707070;
+        font-size: 15px;
+    }
+
+    .item_num {    
+        position: absolute;
+        right: 0;
+
+        width: 100px;
+        height: 60px;
+        line-height: 60px;
+        border-left:1px solid gainsboro;
+        border-right:1px solid gainsboro;
+
+        font-size: 15px;
+        text-align: center;
+        color: #707070;}
+
+
+
+
+        .main2_img_box {
+            min-width: 1240px;
+            max-width: 1720px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .scroll_img_box {
+            width: calc((100% - 40px) / 3);
+            margin: 0 0px 30px;
+            display: inline-block;
+        }
+        .img_box  {
+            position: relative;
+        }
+        
+        .img_box > img {
+            width: 100%;
+        }
+        
+
+        .top_rate {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 50px;
+            height: 50px;
+            padding: 0;
+            color: #fff;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 54px;
+            text-align: center;
+            background-color: #e86434;
+        }
+        
+        .main_txt_box {
+            width: 100%;
+            position: relative;
+        
+        }
+        
+        .main_color {
+        display: flex;
+        gap: 4px;
+        }
+        
+        .item_msg {
+            font-size: 16px;
+            color: #1a1a1a;
+            width: 90%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            line-height: 17px;
+        }
+        
+        .color {
+            width: 14px;
+            height: 14px;
+            margin-right: 3px;
+            border: 1px solid #e6e5e5;
+            box-sizing: border-box;
+        }
+        .pick_heart {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        
+        .price{
+            font-size: 22px;
+            color: #1a1a1a;
+            font-weight: 500;
+        }
+        
+        .main_reiew{
+            margin-top: 10px;
+            font-size: 14px;
+            color: #9a9a9a;
+        }
+        
+        .main_desc {
+            padding: 100px 0;
+            width: 100%;
+            display: flex;
+        }
+        
+        
+        .main_desc > img {
+            width: 50%;
+        }
+        
+
+
+        
+
+
+

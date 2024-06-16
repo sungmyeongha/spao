@@ -1,0 +1,135 @@
+.footer {
+width: 100%;
+background-color: #f7f7f7;
+margin: 0 auto;
+padding: 100px 82px 50px;
+box-sizing: border-box;
+
+position: relative;
+
+
+}
+
+
+.footer_box {
+ display: flex;
+ justify-content: space-between;
+ padding-bottom:50px ;
+}
+
+.footer_left_msg1 {
+    padding-bottom: 40px;
+
+}
+
+.footer_left_msg1 > p{
+    font-size: 13px;
+    color: #1a1a1a;
+    line-height: 23px;
+    margin: 0;
+}
+
+.footer_left_msg1 > span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #909090;
+    display: block;
+}
+
+.footer_left_msg2 > p {
+    font-size: 13px;
+    color: #909090;
+    line-height: 25px;
+    margin-bottom: 40px;
+    margin: 0;
+}
+
+.link_box {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+
+
+.footer_right {
+position: relative;
+display: flex;
+gap: 50px;
+}
+.footer_right_msg {
+    line-height: 30px;
+    font-size: 13px;
+    color: #606060;
+    justify-content: space-between;
+}
+.footer_right_msg > p{
+    margin: 0;
+}
+.footer_right_msg  > span {
+    font-weight: bold;
+}
+
+.family_box {
+    position: absolute;
+    right: 0;
+    top: 195px;
+
+    line-height: 33px;
+    border: 1px solid #e5e5e5;
+    border-radius: 20px;
+}
+.family_box_txt {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.family_box_txt > p {
+    margin: 0;
+    font-size: 13px;
+    color: #1a1a1a;
+
+}
+.family_box_txt  > img {
+    height: 5px;
+}
+
+.hide_familty_txt {
+    height: 100px;
+    overflow-y: scroll;
+    font-size: 13px;
+    color: #1a1a1a;
+    line-height: 33px;
+    padding: 0px 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.corp {
+    width: 100%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 30px 0 0;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f7f7f7;
+    color: #909090;
+    font-size: 13px;
+ 
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    display: flex;
+    gap: 27px;
+    justify-content: space-between;
+}
+.service > p {
+    color: #000000;
+    font-size: 13px;
+}
+
+
